@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
         DrawUI();
         SDL_RenderPresent(renderer);
 
-        SDL_Delay(1 / FPS);
+        SDL_Delay(1000 / FPS);
     }
 
     Clear();
